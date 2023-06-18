@@ -1,0 +1,90 @@
+.container {
+  min-width: 90vw;
+  min-height: 21rem;
+  background-color: black;
+  margin-block-start: 2rem;
+  align-items: center;
+  padding-top: 0.5rem;
+  border-radius: 1rem;
+}
+main {
+  padding: relative;
+  display: block;
+  border: white double 3px;
+  width: 95%;
+  margin: auto;
+  min-height: 18rem;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.screen {
+  align-items: center;
+  color: black;
+  min-width: 5rem;
+  margin: auto;
+  min-height: 3rem;
+  max-height: 3rem;
+  margin-bottom: 3px;
+  background-color: whitesmoke;
+}
+
+#notes {
+  position: relative;
+  display: flex;
+  border: solid white;
+  border-radius: 0.5rem;
+  min-width: 90%;
+  min-height: 13rem;
+  overflow-x: scroll;
+  scroll-margin: none;
+  scrollbar-color: blue;
+  scrollbar-arrow-color: blue;
+  background-color: rgb(29, 28, 28);
+}
+.note {
+  cursor: pointer;
+  display: flex;
+  box-shadow: 0px 0px blue;
+  background-color: white;
+  color: black;
+  border: solid 1px;
+  align-items: end;
+  padding-inline-start: 2px;
+  z-index: 1;
+  min-width: 3rem;
+  max-height: 13rem;
+  position: relative;
+}
+.noteContent {
+  padding: 3px;
+  margin-inline: auto;
+  min-width: 2rem;
+  border-radius: 3px;
+  text-align: center;
+}
+.bnc {
+  margin-left: -1.2rem;
+  margin-right: -1.2rem;
+  position: relative;
+  display: block;
+  min-width: 2.4rem;
+  z-index: 2;
+  background-color: black;
+  height: 6rem;
+  color: pointer;
+}
+.playing {
+  border: inset 3px rgb(61, 56, 56);
+}
+.piano-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.piano-title h3 {
+  font-size: x-large;
+  text-shadow: 2px 1px greenyellow;
+  letter-spacing: 3px;
+}
